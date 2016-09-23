@@ -1,0 +1,14 @@
+[package]
+name = "iomet-reactor"
+version = "0.1.0"
+authors = ["Greg Weng <snowmantw@gmail.com>"]
+
+[dependencies]
+rand = "*"
+serde = "0.8"
+serde_json = "0.8"
+serde_macros = "0.8"
+
+[dependencies.zmq]
+git = "https://github.com/erickt/rust-zmq.git"
+
