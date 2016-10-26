@@ -5,7 +5,7 @@ authors = ["Greg Weng <snowmantw@gmail.com>"]
 
 [dependencies]
 rand = "*"
-serde = "0.8"
+serde = "0.8.9"
 serde_json = "0.8"
 serde_macros = "0.8"
 
